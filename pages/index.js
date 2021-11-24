@@ -3,7 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Nav from './components/Nav'
 import Video from './components/Video'
-
+import Header from './components/Header'
+import Icons from './components/Icons'
 
 export default function Home() {
   return (
@@ -13,8 +14,10 @@ export default function Home() {
         <meta name="description" content="Urban Youth is a new not-for-profit youth organisation" />
         <link rel="icon" href="/urban.jpg" />
       </Head>
-<Nav/>
-<Video/>
+      <Header/>
+      <Icons/>
+     <Nav/>
+    <Video/>
      </div>
   )
 }

@@ -5,8 +5,10 @@ import Image from 'next/dist/client/image'
 
 function Nav() {
     return (
-<nav className="navbar navbar-expand-lg navbar-light bg-warning ">
-  <div className="container-fluid">
+      <div className="">
+      
+<nav className="navbar navbar-expand-lg navbar-light bg-warning">
+  <div className="container-lg">
     <a className="navbar-brand">Urban Youth</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -98,7 +100,9 @@ function Nav() {
       </ul>
     </div>
   </div>
-</nav>        )
+</nav>        
+</div>
+)
 }
 
 export default Nav
