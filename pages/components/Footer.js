@@ -53,6 +53,7 @@ function ResultsBanner() {
       <h1 className="display-5 fw-bold">Contact us</h1>
     <p className="lead fw-bold">Email: <span>test@gmail.com</span></p>
     <p className="lead fw-bold">Phone number: <span>00000 676255</span></p>
+    <p className="lead fw-bold">Registered address: <span>122 Minories, London EC3N 1NT</span></p>
     </div>
 
   </div>
