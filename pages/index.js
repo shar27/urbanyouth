@@ -13,7 +13,7 @@ import SuccessHead from './components/SuccessHead'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Urban Youth</title>
         <meta name="description" content="Urban Youth is a new not-for-profit youth organisation" />
