@@ -5,7 +5,7 @@ import Image from 'next/dist/client/image'
 
 function Nav() {
     return (
-      <div className="">
+      <div>
       
 <nav className="navbar navbar-expand-lg navbar-light bg-warning">
   <div className="container-lg">
@@ -21,13 +21,13 @@ function Nav() {
             About us
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="#">
+          <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="#">
+            <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="#">
+            <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
           </ul>
@@ -37,13 +37,13 @@ function Nav() {
                Our programmes
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="#">
+          <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="#">
+            <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="#">
+            <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
           </ul>
@@ -53,13 +53,13 @@ function Nav() {
             Our impact
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="#">
+          <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="#">
+            <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="#">
+            <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
           </ul>
@@ -69,13 +69,13 @@ function Nav() {
             Work with us
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="#">
+          <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="#">
+            <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="#">
+            <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
          
@@ -86,13 +86,13 @@ function Nav() {
             Support us
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="#">
+          <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="#">
+            <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="#">
+            <Link href="/">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
           </ul>

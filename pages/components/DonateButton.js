@@ -9,7 +9,7 @@ function DonateButton() {
         <p className="text-white fw-bold lead pb-2">Magna deserunt eiusmod qui adipisicing labore occaecat.</p>
         <p className="text-white fw-bold lead pb-2">Magna deserunt eiusmod qui adipisicing labore occaecat.</p>
         <p className="text-white fw-bold lead pb-2">Magna deserunt eiusmod qui adipisicing labore occaecat.</p>
-            <Link href="/Donation">
+            <Link href="/">
                 <a className=" stretched-link fw-bold btn btn-danger text-white ">Donate</a>
             </Link>
             </div>
