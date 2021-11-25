@@ -15,16 +15,16 @@ function ResultsBanner() {
       <h3 className="display-5 fw-bold">Useful links</h3>
             <ul className="list-unstyled lead">
             <Link href="/">
-          <li className="text-decoration-none">Safeguarding</li>
+          <li className="text-decoration-none fw-bold">Safeguarding</li>
           </Link>
           <Link href="/">
-          <li className="text-decoration-none">Sitemap</li>
+          <li className="text-decoration-none fw-bold">Sitemap</li>
           </Link>
           <Link href="/">
-          <li className="text-decoration-none">Accessibility</li>
+          <li className="text-decoration-none fw-bold">Accessibility</li>
           </Link>
           <Link href="/">
-          <li className="text-decoration-none">Terms & conditions</li>
+          <li className="text-decoration-none fw-bold">Terms & conditions</li>
           </Link>
       </ul>
     </div>
