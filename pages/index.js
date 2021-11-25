@@ -12,6 +12,7 @@ import SuccessStories from './components/SuccessStories'
 import SuccessHead from './components/SuccessHead'
 import DonateButton from './components/DonateButton'
 import Subscribe from './components/Subscribe'
+import Footer from './components/Footer'
 
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
     <SuccessStories/>
     <DonateButton/>
     <Subscribe/>
+    <Footer/>
      </div>
   )
 }

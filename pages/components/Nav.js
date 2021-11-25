@@ -69,13 +69,13 @@ function Nav() {
             Work with us
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="/">
+          <Link href="#">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="/">
+            <Link href="#">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="/">
+            <Link href="#">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
          
@@ -86,13 +86,13 @@ function Nav() {
             Support us
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <Link href="/">
+          <Link href="#">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="/">
+            <Link href="#">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
-            <Link href="/">
+            <Link href="#">
             <li><a className="dropdown-item" >Action</a></li>
             </Link>
           </ul>
