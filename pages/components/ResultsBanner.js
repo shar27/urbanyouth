@@ -2,7 +2,7 @@ import React from 'react'
 
 function ResultsBanner() {
     return (
-<div className="bg-danger text-center text-white">
+<div className="bg-primary text-center text-white">
 <h1 className="display-4 mb-4">Our results speak for themselves</h1>
   <div className="row">
     <div className="col">

@@ -8,6 +8,8 @@ import Icons from './components/Icons'
 import Headline from './components/Headline'
 import BelowHeadline from './components/BelowHeadline'
 import ResultsBanner from './components/ResultsBanner'
+import SuccessStories from './components/SuccessStories'
+import SuccessHead from './components/SuccessHead'
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
     <Headline/>
     <BelowHeadline/>
     <ResultsBanner/>
+    <SuccessHead/>
+    <SuccessStories/>
      </div>
   )
 }
