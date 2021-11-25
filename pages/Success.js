@@ -6,7 +6,7 @@ function Success() {
     return (
         <div>
         <Nav/>
-            <h1>Success</h1>
+            <h1 className="text-center display-4">Success</h1>
         </div>
     )
 }

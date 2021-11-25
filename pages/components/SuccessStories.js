@@ -17,8 +17,16 @@ function SuccessStories() {
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
         <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <figure>
+  <blockquote className="blockquote">
+    <p>Mollit mollit excepteur sint exercitation ut nostrud qui sit cillum sunt minim cupidatat dolor do.</p>
+  </blockquote>
+  <figcaption className="blockquote-footer">
+    Someone xxxxx <cite title="Source Title">John doe, 14</cite>
+  </figcaption>
+</figure>
       <Link href="/Success">
-          <a>Read more</a>
+          <a className="btn btn-primary">Read more</a>
       </Link>
       </div>
     </div>
@@ -32,6 +40,17 @@ function SuccessStories() {
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
         <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+<figure>
+  <blockquote className="blockquote">
+    <p>Ipsum in incididunt id tempor aliquip officia ex cillum.</p>
+  </blockquote>
+  <figcaption className="blockquote-footer">
+    Someone xxxx <cite title="Source Title">john doe,14</cite>
+  </figcaption>
+</figure>
+        <Link href="/Success">
+          <a className="btn btn-primary">Read more</a>
+      </Link>
       </div>
     </div>
   </div>
