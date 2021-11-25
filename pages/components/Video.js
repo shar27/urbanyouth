@@ -1,12 +1,13 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 import {useState } from 'react'
+import Image from 'next/image'
 
 function Video() {
     const [isPlaying, setIsPlaying] = useState(true);
     return (
 
-<div>
+<div className="">
 <ReactPlayer 
    priority
    autoPlay 
@@ -19,7 +20,9 @@ function Video() {
     width = '100%'
      
   /> 
-        </div>
+  </div>
+  
+  
     )
 }
 

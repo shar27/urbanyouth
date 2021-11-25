@@ -5,6 +5,9 @@ import Nav from './components/Nav'
 import Video from './components/Video'
 import Header from './components/Header'
 import Icons from './components/Icons'
+import Headline from './components/Headline'
+import BelowHeadline from './components/BelowHeadline'
+import ResultsBanner from './components/ResultsBanner'
 
 export default function Home() {
   return (
@@ -18,6 +21,9 @@ export default function Home() {
       <Icons/>
      <Nav/>
     <Video/>
+    <Headline/>
+    <BelowHeadline/>
+    <ResultsBanner/>
      </div>
   )
 }
