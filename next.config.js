@@ -1,3 +1,7 @@
 module.exports = {
-  reactStrictMode: true,
+  
+  esLint: {
+    ignoreDuringBuilds: true,
+  },
+  "presets": ["next/babel"]
 }
